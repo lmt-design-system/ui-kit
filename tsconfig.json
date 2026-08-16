@@ -1,0 +1,3 @@
+{
+  "extends": "@ui-kit/typescript-config/base.json"
+}

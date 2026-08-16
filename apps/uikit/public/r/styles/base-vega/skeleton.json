@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "skeleton",
+  "type": "registry:ui",
+  "title": "skeleton",
+  "categories": [
+    "ui"
+  ],
+  "registryDependencies": [
+    "https://uikit.limmengty.com/r/styles/base-vega/styles.json",
+    "https://uikit.limmengty.com/r/styles/base-vega/utils.json"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "packages/ui/src/base-components/skeleton.tsx",
+      "type": "registry:ui",
+      "content": "import { cn } from \"@/lib/utils\"\n\nfunction Skeleton({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"skeleton\"\n      className={cn(\"cn-skeleton animate-pulse\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Skeleton }\n",
+      "target": "components/ui/skeleton.tsx"
+    }
+  ]
+}

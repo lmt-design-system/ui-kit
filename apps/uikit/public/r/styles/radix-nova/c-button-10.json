@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-10",
+  "type": "registry:block",
+  "title": "Disabled button",
+  "description": "Disabled button",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-10.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport default function Pattern() {\n  return <Button>Button</Button>\n}\n",
+      "target": "components/examples/c-button-10.tsx"
+    }
+  ],
+  "meta": {
+    "order": 10
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "c-button-33",
+  "type": "registry:block",
+  "title": "Ghost button with an invalid state",
+  "description": "Ghost button with an invalid state",
+  "categories": [
+    "button"
+  ],
+  "registryDependencies": [
+    "https://uikit.limmengty.com/r/styles/radix-nova/button.json",
+    "https://uikit.limmengty.com/r/styles/radix-nova/styles.json"
+  ],
+  "dependencies": [],
+  "files": [
+    {
+      "path": "registry/bases/radix/components/button/c-button-33.tsx",
+      "type": "registry:block",
+      "content": "import { Button } from \"@/components/ui/button\"\n\nexport default function Pattern() {\n  return (\n    <Button variant=\"ghost\" aria-invalid=\"true\">\n      Invalid Ghost\n    </Button>\n  )\n}\n",
+      "target": "components/examples/c-button-33.tsx"
+    }
+  ],
+  "meta": {
+    "order": 33
+  }
+}
